@@ -1,0 +1,17 @@
+<div class>
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <app-ws-side-bar></app-ws-side-bar>
+            <div class="col-md-11">
+                <app-ws-navbar></app-ws-navbar>
+
+                <div class="row">
+                    <div class="bg-secondary w-100 pt-3">
+                        <!-- id is :{{projectId}} -->
+                        <router-outlet></router-outlet>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

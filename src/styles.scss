@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+.navbar-vertical .navbar-nav .nav-link.active:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.25rem;
+    bottom: 0.25rem;
+    border-left: 5px solid #5e72e4 !important;
+}
